@@ -13,9 +13,5 @@ Description: Maps species distributions from an ordinary table of
 Depends: R (>= 3.5.0)
 Imports: stats, graphics, grDevices
 Suggests: robust, adehabitatHS, ade4
-License: GPL (>= 2)
+License: GPL-3
 Encoding: UTF-8
-NeedsCompilation: no
-Packaged: 2026-11-14 21:22:41 UTC; root
-Author: Pierre Bady [aut, cre]
-Maintainer: Pierre Bady <pierre.bady@gmail.com>

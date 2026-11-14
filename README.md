@@ -18,13 +18,13 @@ From GitHub:
 
 ```r
 # install.packages("remotes")
-remotes::install_github("badozor/mahab", subdir = "trunck/mahab")
+remotes::install_github("badozor/mahab", subdir = "trunk/mahab")
 ```
 
 From the source archive in this repository:
 
 ```r
-install.packages("trunck/Rpackage/mahab_0.4.tar.gz", repos = NULL, type = "source")
+install.packages("trunk/Rpackage/mahab_0.4.tar.gz", repos = NULL, type = "source")
 ```
 
 The `robust` package is optional. It is only needed for `method = "robust"`.
@@ -70,13 +70,13 @@ qqmahab(fit)
 
 ## Documentation
 
-- Reference manual: [`trunck/documentation/mahab-manual.pdf`](trunck/documentation/mahab-manual.pdf)
-- Changes: [`trunck/mahab/NEWS.md`](trunck/mahab/NEWS.md)
+- Reference manual: [`trunk/documentation/mahab-manual.pdf`](trunk/documentation/mahab-manual.pdf)
+- Changes: [`trunk/mahab/NEWS.md`](trunk/mahab/NEWS.md)
 
 ## Repository layout
 
 ```
-trunck/
+trunk/
 ├── mahab/           package sources
 ├── Rpackage/        source archive (mahab_0.4.tar.gz)
 └── documentation/   reference manual (PDF)
@@ -98,5 +98,4 @@ Pierre Bady (<pierre.bady@gmail.com>)
 
 ## License
 
-GPL (>= 2), as stated in the package DESCRIPTION. The repository includes the
-text of the GPL version 3.
+GPL-3. See [`LICENSE`](LICENSE).

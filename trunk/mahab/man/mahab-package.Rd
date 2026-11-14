@@ -15,7 +15,7 @@ Package: \tab mahab\cr
 Type: \tab Package\cr
 Version: \tab 0.4\cr
 Date: \tab 2026-11-14\cr
-License: \tab GPL (>= 2)\cr
+License: \tab GPL-3\cr
 }
 Main functions:
 \itemize{

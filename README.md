@@ -12,6 +12,12 @@ The main function adapts `mahasuhab()` from the
 [adehabitatHS](https://cran.r-project.org/package=adehabitatHS) package to
 ordinary data frames, with no need for spatial objects.
 
+## Background
+
+This package was developed during an older project dated 2007-2008
+([EFI+](https://cordis.europa.eu/project/id/44096/fr)). The prediction limits
+(`predict(..., interval = TRUE)`) are still experimental.
+
 ## Installation
 
 From GitHub:

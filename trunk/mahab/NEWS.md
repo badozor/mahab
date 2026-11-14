@@ -35,7 +35,7 @@
 * `print.mahab()` and `plot.mahab()` return `x` invisibly. `qqmahab()` returns
   the distances of presence sites invisibly.
 * Maintainer email changed to pierre.bady@gmail.com.
-* DESCRIPTION updated: `Authors@R`, `License: GPL (>= 2)`, `Encoding: UTF-8`,
+* DESCRIPTION updated: `Authors@R`, `License: GPL-3` (same as the repository `LICENSE`), `Encoding: UTF-8`,
   invalid `URL` field removed, title typo fixed.
 
 ## Documentation

@@ -1,0 +1,21 @@
+Package: mahab
+Type: Package
+Title: Species Distribution Mapping Based on the Mahalanobis Distance
+Version: 0.4
+Date: 2026-11-14
+Authors@R: person("Pierre", "Bady", email = "pierre.bady@gmail.com",
+    role = c("aut", "cre"))
+Description: Maps species distributions from an ordinary table of
+    environmental variables measured at sites. Each site is scored by its
+    Mahalanobis distance to the mean habitat of the presence records
+    (Clark et al. 1993). The main function adapts mahasuhab() from the
+    'adehabitatHS' package to ordinary data frames.
+Depends: R (>= 3.5.0)
+Imports: stats, graphics, grDevices
+Suggests: robust, adehabitatHS, ade4
+License: GPL (>= 2)
+Encoding: UTF-8
+NeedsCompilation: no
+Packaged: 2026-11-14 21:22:41 UTC; root
+Author: Pierre Bady [aut, cre]
+Maintainer: Pierre Bady <pierre.bady@gmail.com>

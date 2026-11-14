@@ -1,0 +1,8 @@
+export(mahab, qqmahab)
+S3method(print, mahab)
+S3method(plot, mahab)
+S3method(predict, mahab)
+importFrom(stats, cov, mahalanobis, pchisq, qchisq, qqplot, ppoints,
+           predict, complete.cases, quantile, density)
+importFrom(graphics, abline, grid, lines, par, plot)
+importFrom(grDevices, n2mfrow)

@@ -1,4 +1,4 @@
-# mahab
+# mahab <img src="logo/mahab_hex.png" align="right" width="130" alt="mahab logo"/>
 
 Species distribution mapping based on the Mahalanobis distance.
 
